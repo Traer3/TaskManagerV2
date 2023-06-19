@@ -1,0 +1,12 @@
+create table public.task ( 
+	id serial primary key,   	
+	name varchar(20),    
+	state varchar(20) 
+);
+
+insert into public.task (name,state) 
+values ('Refactor code', 'IN_PROCESS');  
+
+update task set state = 'DONE' where id = 2;
+
+select * from  public.task order by id desc;
