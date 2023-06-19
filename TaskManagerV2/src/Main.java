@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     private static final String DB_USERNAME = "postgres";
-    private static final String DB_PASSWORD = "Wedfvb01";
+    private static final String DB_PASSWORD = "";
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/task_manager_db";
 
     public static void main(String[] args) throws SQLException {
